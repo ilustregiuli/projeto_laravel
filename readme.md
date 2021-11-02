@@ -49,6 +49,16 @@ Criei a rota `/cadastrar`, que chama o controller e utiliza o método para devol
 
 A view "cadastro" recebe do método `cadastrarUser` um parâmetro `$nome`, somente para testar o envio de parâmetros request-view. Ela recebe esse parâmetro, extende a view "index" e apresenta na tela a variável `$nome`, enviada por parâmetro.
 
+## Status e Próximas Tarefas
+
+Status: criado somente a rota de cadastro e um acesso a view de cadastro. Exibe uma mensagem passada por parâmetro.
+
+Próximas tarefas:
+
+- Criar a rota para "logar"
+- Criar o formulário para fazer o castro
+- Criar o Data Base da aplicação
+
 
 
 
