@@ -6,9 +6,12 @@ Route::get('/', function () {
 
 Route::get('/cadastrar', 'CadastrarController@cadastrarUser');
 
-Route::get('/meubemvindo', 'MeuBemVindoController@dizerBemvindo');
 
-Route::get('/index','MeuBemVindoController@bemvindoPersonalizado');
+
+
+// rotas teste
+// Route::get('/meubemvindo', 'MeuBemVindoController@dizerBemvindo');
+// Route::get('/index','MeuBemVindoController@bemvindoPersonalizado');
 
 
 ?>

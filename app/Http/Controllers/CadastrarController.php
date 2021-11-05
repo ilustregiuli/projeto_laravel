@@ -11,6 +11,7 @@ class CadastrarController extends Controller
     public function cadastrarUser()
     {
         $nome = 'Formulário de cadastro';
+        
         return view('cadastro', [
             'nome' => $nome
         ]);
