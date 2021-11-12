@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-md-1">
-                <a class="btn btn-dark" href="logar.html" role="button">Entrar</a>
+                <a class="btn btn-dark" href="/logar" role="button">Entrar</a>
             </div>
 
         </div> <!-- div row bg-info 2-->

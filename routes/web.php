@@ -5,6 +5,9 @@ Route::get('/', function () {
 });
 
 Route::get('/cadastrar', 'CadastrarController@cadastrarUser');
+Route::post('/criar','CadastrarController@criarUser');
+
+
 
 
 
